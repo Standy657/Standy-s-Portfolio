@@ -1,0 +1,125 @@
+body{
+	background-color: #6A1D59;
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.text{
+	color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 8px;
+}
+
+.window{
+	background-color: #c3c3c3;
+	border: 3px solid;
+	border-radius: 10px;
+	width: 600px;
+	height: 400px;
+	box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #a22066;
+	border: none;
+	border-radius: 7px 7px 0px 0px;
+	width: 100%;
+	height: 30px;
+}
+
+.txt{
+	float: right;
+	border: none;
+	width: 250px;
+	height: 125px;
+	margin-top: 10px;
+	margin-right: 75px;
+}
+
+#logo{
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+button{
+	background-color: #c3c3c3;
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.btns{
+	clear: both;
+	margin-top: 283px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.close{
+	background-color: #a22066;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+
+a{
+	display: inline-block;
+	padding: 10px
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	padding-left: 10px
+}
+
+.moveWin{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 10px;
+}
+
+.art{
+	width: calc(50% - 5px);
+	display: flex;
+	flex-direction: column;
+}
+
+.winImg{
+	border-radius: 20px;
+	width: 285px;
+}
+
+.content{
+	overflow-y: auto;
+}
+
+.topRow{
+	border-bottom: solid;
+	display: flex;
+	gap: 10px;
+	padding: 10px;
+}
+
+#left, #middle, #right{
+	flex: 1;
+}
