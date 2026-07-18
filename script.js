@@ -11,7 +11,7 @@ function openInfo(){
 		</div>
 		<div>
 			<p>Heya! I'm just gonna dump everything in one paragraph tag so I can sort it out later :3</p>
-			<p>I draw on paper, draw on a device, design, code, 3D model, and other things. I'm autistic, so that means I have my hyperfixations: old technology, Geometry Dash, music, Toki Pona, and more!</p>
+			<p>I draw on paper, draw on a device, design, code, 3D model, and other things. I'm autistic, so that means I have my hyperfixations: old technology, Geometry Dash, music, Toki Pona, and more! Oh, and commissions are free with tips accepted. And I <b>AM</b> a minor!</p>
 		</div>
 	`;
 
@@ -78,44 +78,72 @@ function openWork(){
 			<h1>Drawings (paper and digital)</h1>
 			<div class="gallery">
 				<div class="art">
-					<img src="img/IMG_8499.png"m class="winImg"></img>
+					<img src="img/IMG_8499.webp"m class="winImg"></img>
 					Drawing of a lake at night I did in ibisPaint X
 				</div>
 				<div class="art">
-					<img src="img/IMG_5205.jpeg"m class="winImg"></img>
-					Get a load of this guy!
+					<img src="img/IMG_5205.webp"m class="winImg"></img>
+					Get a load of this guy! - Cordney
+				</div>
+				<div class="art">
+					<img src="img/IMG_5197.webp"m class="winImg"></img>
+					Organ flower
+				</div>
+				<div class="art">
+					<img src="img/IMG_5122.webp"m class="winImg"></img>
+					Cordney, again.
+				</div>
+				<div class="art">
+					<img src="img/IMG_5120.webp"m class="winImg"></img>
+					Ashra's room
 				</div>
 			</div>
 			<h1>3D renders</h1>
 			<div class="gallery">
 				<div class="art">
-					<img src="img/untitled6.png"m class="winImg"></img>
+					<img src="img/untitled5.webp"m class="winImg"></img>
 					Backrooms render for fun
 				</div>
 				<div class="art">
-					<img src="img/untitled5.png"m class="winImg"></img>
+					<img src="img/untitled4.webp"m class="winImg"></img>
 					Backrooms render for fun
 				</div>
 				<div class="art">
-					<img src="img/untitled4.png"m class="winImg"></img>
+					<img src="img/untitled6.webp"m class="winImg"></img>
 					Backrooms render for fun
+				</div>
+				<div class="art">
+					<img src="img/untitled3.webp"m class="winImg"></img>
+					Backrooms render for fun
+				</div>
+				<div class="art">
+					<img src="img/untitled1.webp"m class="winImg"></img>
+					Backrooms render for fun
+				</div>
+				<div class="art">
+					<img src="img/untitled.webp"m class="winImg"></img>
+					Backrooms render for fun
+				</div>
+				<div class="art">
+					<img src="img/blenderhead.webp"m class="winImg"></img>
+					Cordney's Head
 				</div>
 			</div>
 			<h1>Photoshop</h1>
 			<div class="gallery">
 				<div class="art">
-					<img src="img/eyebw.bmp"m class="winImg"></img>
+					<img src="img/eyebw.webp"m class="winImg"></img>
 					Before
 				</div>
 				<div class="art">
-					<img src="img/eyecolor.bmp"m class="winImg"></img>
+					<img src="img/eyecolor.webp"m class="winImg"></img>
 					After, finished May 4th, 2026, I did this for Graphic Design VoTech.
 				</div>
 			</div>
 			<h1>Illustrator</h1>
 			<div class="gallery">
 				<div class="art">
-					<img src="img/logo.png"m class="winImg"></img>
+					<img src="img/logo.webp"m class="winImg"></img>
 					My logo :3
 				</div>
 			</div>
@@ -160,7 +188,7 @@ function openWork(){
 function openLinks(){
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
-	variable.style.width = "250px";
+	variable.style.width = "300px";
 	variable.style.height = "200px";
 	document.body.appendChild(variable);
 	variable.innerHTML = `
@@ -169,7 +197,8 @@ function openLinks(){
 			<button onclick="closeButton()" class="close"><b>X</b></button>
 		</div>
 		<div>
-		<a href="https://www.youtube.com/@standy657" target="_blank">Youtube</a>
+		<a href="https://www.youtube.com/@standy657" target="_blank"><img src="img/YouTube.png" height="50"></a>
+			<a href="https://www.reddit.com/user/No-Enthusiasm3363/" target="_blank"><img src="img/Reddit.png" height="50"></a>
 		</div>
 	`;
 
@@ -215,11 +244,14 @@ function openFaq(){
 	document.body.appendChild(variable);
 	variable.innerHTML = `
 		<div class="title">
-			<span class="text">Frequently Asked Questions!</span>
+			<span class="text">QnA time!</span>
 			<button onclick="closeButton()" class="close"><b>X</b></button>
 		</div>
 		<div>
-		<p>None :(</p>
+		<p>Ask me questions via my contacts! If they're important questions that I just left out, then I'll put 'em here!</p>
+		<hr>
+		<p>Q: How many legitimate questions have you been asked?</p>
+		<p>A: None :(</p>
 		</div>
 	`;
 
@@ -260,8 +292,8 @@ function openFaq(){
 function openMail(){
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
-	variable.style.width = "400px";
-	variable.style.height = "300px";
+	variable.style.width = "320px";
+	variable.style.height = "380px";
 	document.body.appendChild(variable);
 	variable.innerHTML = `
 		<div class="title">
@@ -271,9 +303,10 @@ function openMail(){
 		<div>
 		<h1>Contact me!</h1>
 		<p>Contact me for commissions, partnerships, or aksing me for perms.</p>
-		<a href="mailto:standy8675@gmail.com">Moi email :3</a>
-		<p>Discord: jeeper1creeper</p>
-		<p>Reddit: u/No-Enthusiasm3363</p>
+		<div class="links">
+			<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=standy8675@gmail.com" target="_blank"><img src="img/Gmail.png" height="50"></a>
+			<a href="https://discord.com/users/1076623487021621380" target="_blank"><img src="img/Discord.png" height="50"></a>
+		</div>
 		</div>
 	`;
 

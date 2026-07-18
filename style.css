@@ -123,3 +123,15 @@ p{
 #left, #middle, #right{
 	flex: 1;
 }
+
+.links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+hr{
+	border: 2px solid black;
+}
+*/
