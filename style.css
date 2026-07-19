@@ -80,15 +80,17 @@ a{
 
 h1{
 	text-align: center;
+	margin-bottom: 0;
 }
 
 p{
-	padding-left: 10px
+	padding-left: 10px;
 }
 
 .moveWin{
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 .gallery{
@@ -124,14 +126,18 @@ p{
 	flex: 1;
 }
 
-.links{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
 }
 
-/*
-hr{
-	border: 2px solid black;
+.twitter{
+    filter: drop-shadow(1px 0 0 white)
+            drop-shadow(-1px 0 0 white)
+            drop-shadow(0 1px 0 white)
+            drop-shadow(0 -1px 0 white);
 }
-*/

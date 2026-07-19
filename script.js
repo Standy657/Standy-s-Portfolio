@@ -1,19 +1,50 @@
+let highestZ = 1;
+
 function openInfo(){
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
-	variable.style.width = "300px";
-	variable.style.height = "400px";
+	variable.style.width = "360px";
+	variable.style.height = "480px";
 	document.body.appendChild(variable);
 	variable.innerHTML = `
 		<div class="title">
 			<span class="text">Info</span>
 			<button onclick="closeButton()" class="close"><b>X</b></button>
 		</div>
-		<div>
-			<p>Heya! I'm just gonna dump everything in one paragraph tag so I can sort it out later :3</p>
-			<p>I draw on paper, draw on a device, design, code, 3D model, and other things. I'm autistic, so that means I have my hyperfixations: old technology, Geometry Dash, music, Toki Pona, and more! Oh, and commissions are free with tips accepted. And I <b>AM</b> a minor!</p>
+		<div style="border-bottom: 3px solid;">
+			<h1>Ethan McDonald</h1>
+			<p style="text-align: center; margin: 0;">Entry-level Graphic Designer</p>
+			<br>
+		</div>
+		<div class="content">
+			<p>Heya! I'm Standy, I do many things. I...</p>
+			<ul>
+				<li>draw characters on paper and digitally</li>
+				<li>design logos/icons</li>
+				<li>do frontend development</li>
+				<li>3D model</li>
+				<li>create Geometry Dash levels (someone got paid $1000 once)</li>
+				<li>write books</li>
+			</ul>
+
+			<h1>Interests :D</h1>
+			<ul>
+				<li>Old technology</li>
+				<li>actually playing Geometry Dash</li>
+				<li>listening to music</li>
+				<li>learning Toki Pona</li>
+			</ul>
+			
+			<h1>Other</h1>
+			<p>Oh, and commissions are free. I would say tips accepted, but I ain't 18 for Ko-fi. :C</p>
 		</div>
 	`;
+
+	variable.style.zIndex = highestZ++;
+
+	variable.addEventListener("mousedown", function () {
+		this.style.zIndex = highestZ++;
+	});
 
 	const closeButton = variable.querySelector(".close");
 
@@ -53,7 +84,7 @@ function openWork(){
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
 	variable.style.width = "600px";
-	variable.style.height = "400px";
+	variable.style.height = "500px";
 	document.body.appendChild(variable);
 	variable.innerHTML = `
 		<div class="title">
@@ -96,6 +127,26 @@ function openWork(){
 				<div class="art">
 					<img src="img/IMG_5120.webp"m class="winImg"></img>
 					Ashra's room
+				</div>
+				<div class="art">
+					<img src="img/IMG_5336.webp"m class="winImg"></img>
+					The Backrooms doodle I did while summer-schooling to pass 10th grade
+				</div>
+				<div class="art">
+					<img src="img/IMG_5363.webp"m class="winImg"></img>
+					Cordney no-clipping into the Backrooms
+				</div>
+				<div class="art">
+					<img src="img/IMG_5966.webp"m class="winImg"></img>
+					Organ flower again, but more detailed! The latest update to this image was 8/30/24
+				</div>
+				<div class="art">
+					<img src="img/IMG_4240.webp"m class="winImg"></img>
+					This was the first time I drew Pomni, all the way back to 10/16/23, soon after the pilot came out.
+				</div>
+				<div class="art">
+					<img src="img/IMG_5988.webp"m class="winImg"></img>
+					And this is the third time I drew Pomni, around 7/13/26
 				</div>
 			</div>
 			<h1>3D renders</h1>
@@ -151,6 +202,12 @@ function openWork(){
 		</div>
 	`;
 
+	variable.style.zIndex = highestZ++;
+
+	variable.addEventListener("mousedown", function () {
+		this.style.zIndex = highestZ++;
+	});
+
 	const closeButton = variable.querySelector(".close");
 
 		closeButton.addEventListener("click", function() {
@@ -188,8 +245,8 @@ function openWork(){
 function openLinks(){
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
-	variable.style.width = "300px";
-	variable.style.height = "200px";
+	variable.style.width = "360px";
+	variable.style.height = "240px";
 	document.body.appendChild(variable);
 	variable.innerHTML = `
 		<div class="title">
@@ -197,10 +254,20 @@ function openLinks(){
 			<button onclick="closeButton()" class="close"><b>X</b></button>
 		</div>
 		<div>
-		<a href="https://www.youtube.com/@standy657" target="_blank"><img src="img/YouTube.png" height="50"></a>
-			<a href="https://www.reddit.com/user/No-Enthusiasm3363/" target="_blank"><img src="img/Reddit.png" height="50"></a>
+			<div class="links">
+				<a href="https://www.youtube.com/@standy657" target="_blank"><img src="img/YouTube.png" width="100"></a>
+				<a href="https://www.reddit.com/user/No-Enthusiasm3363/" target="_blank"><img src="img/Reddit.png" width="100"></a>
+				<a href="https://x.com/Ethan1816792012" target="_blank"><img src="img/Twitter.png" width="100" class="twitter"></a>
+				<a href="" target="_blank"><img src="img/Kofi.png" width="100"></a>
+			</div>
 		</div>
 	`;
+
+	variable.style.zIndex = highestZ++;
+
+	variable.addEventListener("mousedown", function () {
+		this.style.zIndex = highestZ++;
+	});
 
 	const closeButton = variable.querySelector(".close");
 
@@ -255,6 +322,12 @@ function openFaq(){
 		</div>
 	`;
 
+	variable.style.zIndex = highestZ++;
+
+	variable.addEventListener("mousedown", function () {
+		this.style.zIndex = highestZ++;
+	});
+
 	const closeButton = variable.querySelector(".close");
 
 		closeButton.addEventListener("click", function() {
@@ -289,7 +362,7 @@ function openFaq(){
 			dragging = false;
 	});
 }
-function openMail(){
+function openMail(){	
 	const variable = document.createElement("div");
 	variable.className = "window moveWin";
 	variable.style.width = "320px";
@@ -302,7 +375,7 @@ function openMail(){
 		</div>
 		<div>
 		<h1>Contact me!</h1>
-		<p>Contact me for commissions, partnerships, or aksing me for perms.</p>
+		<p>Contact me for commissions, partnerships, or for permissions to use my art.</p>
 		<div class="links">
 			<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=standy8675@gmail.com" target="_blank"><img src="img/Gmail.png" height="50"></a>
 			<a href="https://discord.com/users/1076623487021621380" target="_blank"><img src="img/Discord.png" height="50"></a>
@@ -315,6 +388,12 @@ function openMail(){
 		closeButton.addEventListener("click", function() {
 			variable.remove();
 		});
+
+	variable.style.zIndex = highestZ++;
+
+	variable.addEventListener("mousedown", function () {
+		this.style.zIndex = highestZ++;
+	});
 
 	const title = variable.querySelector(".title");
 
