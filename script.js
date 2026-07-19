@@ -258,7 +258,6 @@ function openLinks(){
 				<a href="https://www.youtube.com/@standy657" target="_blank"><img src="img/YouTube.png" width="100"></a>
 				<a href="https://www.reddit.com/user/No-Enthusiasm3363/" target="_blank"><img src="img/Reddit.png" width="100"></a>
 				<a href="https://x.com/Ethan1816792012" target="_blank"><img src="img/Twitter.png" width="100" class="twitter"></a>
-				<a href="" target="_blank"><img src="img/Kofi.png" width="100"></a>
 			</div>
 		</div>
 	`;
