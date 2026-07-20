@@ -36,4 +36,4 @@ Q4 = Oct-Dec
 
 ---
 
-*ChatGPT was used as a learning resource for JavaScript. It was mainly used for asking specific questions, debugging, and explaining concepts that Google had no idea what I was on about. All code that was generated was modified by me so I had some grasp of what the code was doing.
+*ChatGPT and Claude was used as a learning resource for JavaScript. It was mainly used for asking specific questions, debugging, and explaining concepts that Google had no idea what I was on about. All code that was generated was modified by me so I had some grasp of what the code was doing.
