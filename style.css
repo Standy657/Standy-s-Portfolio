@@ -52,11 +52,21 @@ body{
 }
 
 button{
+	border: 3px outset white;
 	background-color: #c3c3c3;
 	width: 60px;
 	height: 60px;
 	border-radius: 5px;
 }
+
+button:active{
+	border: 3px inset white;
+	background-color: #c3c3c3;
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+
 
 .btns{
 	clear: both;
@@ -72,11 +82,6 @@ button{
 	border: none;
 	width: 30px;
 	height: 30px;
-}
-
-a{
-	display: inline-block;
-	padding: 10px
 }
 
 h1{

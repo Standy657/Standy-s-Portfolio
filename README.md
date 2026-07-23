@@ -1,5 +1,5 @@
 # Introduction
-Standy's Portfolio is my personal website, built by me*, hosted by Github, and shares things about me!
+Standy's Portfolio is my personal website, built by me*, hosted by Github and Neocities, and shares things about me!
 
 **Live Website**
 
